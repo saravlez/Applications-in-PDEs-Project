@@ -11,17 +11,17 @@ The project implements three models to capture different aspects of crowd behavi
 ### Repository Structure
 ```
 Code/
-├── Population Model/
+├── Population Model
 │   ├── population_model.py           # Main ODE simulation
 │   ├── population_comparison.py      # Parameter sensitivity script
 │   └── steady_states.py              # Equilibrium and stability analysis
-├── Off Lattice Model/
+├── Off Lattice Model
 │   ├── off_lattice_bidirectional.py   # Main simulation script
 │   ├── off_lattice_crush.py           # Overcrowded scenario (from Crush 0.05) 
 │   ├── off_lattice_comparison.py      # Parameter comparison 
 │   ├──bidirectional_crowd_flow.mp4    # Normal Animation  
 │   └──bidirectional_crush_flow.mp4    # Crush Animation
-└── Lattice Model/
+└── Lattice Model
     ├── lattice_model.py               # Main cellular automaton simulation
     ├── lattice_crush.py               # Overcrowded scenario
     ├── lattice_comparison.py          # Parameter comparison 
