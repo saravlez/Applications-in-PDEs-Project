@@ -11,7 +11,6 @@ The project implements three models to capture different aspects of crowd behavi
 ### Repository Structure
 ```
 Code/
-├── README.md
 ├── Population Model/
 │   ├── population_model.py           # Main ODE simulation
 │   ├── population_comparison.py      # Parameter sensitivity script
