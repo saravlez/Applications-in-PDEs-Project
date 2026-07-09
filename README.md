@@ -9,6 +9,7 @@ The project implements three models to capture different aspects of crowd behavi
 - Lattice (Cellular Automaton) Model. A discrete grid framework that emphasises how narrow geometry and synchronous movement rules can generate jams and crush phenomena.
 
 ### Repository Structure
+```
 Code/
 ├── README.md
 ├── Population Model/
@@ -27,6 +28,7 @@ Code/
     ├── lattice_comparison.py          # Parameter comparison 
     ├── lattice_crowd_animation.mp4    # Normal Animation 
     └── lattice_crush_animation.mp4    # Crush Animation
+```
 
 ### Prerequisites
 - NumPy
