@@ -8,6 +8,8 @@ The project implements three models to capture different aspects of crowd behavi
 - Off-Lattice Particle Model. An agent-based simulation in continuous space where individuals interact via repulsive and panic-driven forces.
 - Lattice (Cellular Automaton) Model. A discrete grid framework that emphasises how narrow geometry and synchronous movement rules can generate jams and crush phenomena.
 
+**Animations**: View full animation gallery → [ANIMATIONS.md](ANIMATIONS.md)
+
 ### Repository Structure
 ```
 Code/
@@ -34,13 +36,6 @@ Code/
 - SciPy
 - Matplotlib
 - Seaborn
-
-### Output Files
-Each simulation generates:
-- Time series plots: Density, panic, flow rate over time
-- Animation files: MP4 videos of crowd evolution
-- Snapshot images: Spatial distribution at key times
-- Comparison plots: Parameter sensitivity analysis
 
 ### Contact 
 This project is for academic and research purposes. Please feel free to email me at saravlezfue@gmail.com if you have any questions.
