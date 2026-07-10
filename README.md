@@ -5,9 +5,8 @@ This repository contains three complementary mathematical models for simulating 
 #### Project Overview
 The project implements three models to capture different aspects of crowd behaviour:
 - Population ODE Model. A non-spatial system of ODEs that approximates overall crowd size and panic accumulation over time.
-- Off-Lattice Particle Model. An agent-based simulation in continuous space where individuals interact via repulsive and panic-driven forces.
-- Lattice (Cellular Automaton) Model. A discrete grid framework that emphasises how narrow geometry and synchronous movement rules can generate jams and crush phenomena.
-
+- Off-Lattice Particle Model. An agent-based simulation in continuous space where individuals interact via repulsive and panic-driven forces, ![Normal Scenario](videos/off-lattice_normal.mp4) and ![Overcrowded](videos/off-lattice_crush.mp4).
+- Lattice (Cellular Automaton) Model. A discrete grid framework that emphasises how narrow geometry and synchronous movement rules can generate jams and crush phenomena,  ![Lattice Normal](videos/lattice_normal.mp4) and ![Overcrowded](videos/lattice_crush.mp4).
 
 ### Repository Structure
 ```
@@ -29,12 +28,6 @@ Code/
     ├── lattice_crowd_animation.mp4    # Normal Animation 
     └── lattice_crush_animation.mp4    # Crush Animation
 ```
-
-### Animations 
-Off-Lattice Model (Normal Scenario): ![Off-Lattice Normal](videos/off-lattice_normal.mp4) \
-Off-Lattice Model (Crush Scenario): ![Off-Lattice Crush](videos/off-lattice_crush.mp4) \
-Lattice Model (Normal Scenario) : ![Lattice Normal](videos/lattice_normal.mp4) \
-Lattice Model (Crush Scenario): ![Lattice Crush](videos/lattice_crush.mp4)
 
 ### Prerequisites
 - NumPy
