@@ -8,6 +8,7 @@ The project implements three models to capture different aspects of crowd behavi
 - Off-Lattice Particle Model. An agent-based simulation in continuous space where individuals interact via repulsive and panic-driven forces.
 - Lattice (Cellular Automaton) Model. A discrete grid framework that emphasises how narrow geometry and synchronous movement rules can generate jams and crush phenomena.
 
+
 ### Repository Structure
 ```
 Code/
@@ -28,6 +29,9 @@ Code/
     ├── lattice_crowd_animation.mp4    # Normal Animation 
     └── lattice_crush_animation.mp4    # Crush Animation
 ```
+# Example Animation
+![Crowd Simulation - Normal Scenario](Videos/off-lattice_normal.mp4)
+<video src="Videos/off-lattice_normal.mp4" controls width="100%"></video>
 
 ### Prerequisites
 - NumPy
