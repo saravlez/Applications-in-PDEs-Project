@@ -37,5 +37,7 @@ Code/
 - Matplotlib
 - Seaborn
 
-### Contact 
+---
+
+#### Contact 
 This project is for academic and research purposes. Please feel free to email me at saravlezfue@gmail.com if you have any questions.
