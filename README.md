@@ -1,5 +1,5 @@
-# Crowd Dynamics Simulation Project
-### Modelling Crowd Dynamics to Prevent Crushes - Itaewon Halloween 2022
+# Itaewon Crowd Crush Simulation
+### Three Complementary Models of Pedestrian Dynamics (ODE, Off-Lattice, and Cellular Automata)
 This repository contains three complementary mathematical models for simulating crowd dynamics, developed to reproduce and understand the fundamental mechanisms that led to the Itaewon Halloween crowd crush (October 29, 2022) in Seoul, South Korea.
 
 #### Project Overview
@@ -10,7 +10,7 @@ The project implements three models to capture different aspects of crowd behavi
 
 **Animations**: View full animation gallery → [Animations.md](Animations.md)
 
-### Repository Structure
+## Repository Structure
 ```
 Code/
 ├── Population Model
@@ -31,7 +31,7 @@ Code/
     └── lattice_crush_animation.mp4    # Crush Animation
 ```
 
-### Prerequisites
+#### Prerequisites
 - NumPy
 - SciPy
 - Matplotlib
