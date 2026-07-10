@@ -31,12 +31,10 @@ Code/
 ```
 
 ### Animations
-
-Off-Lattice Model (Normal Scenario)
-<video src="Videos/off-lattice_normal.mp4" controls width="100%"></video>
-
- Off-Lattice Model (Crush Scenario)
-<video src="Videos/off-lattice_crush.mp4" controls width="100%"></video>
+Off-Lattice Model (Normal Scenario): ![Off-Lattice Normal](videos/off-lattice_normal.mp4)
+Off-Lattice Model (Crush Scenario): ![Off-Lattice Crush](videos/off-lattice_crush.mp4)
+Lattice Model (Normal Scenario) : ![Lattice Normal](videos/lattice_normal.mp4)
+Lattice Model (Crush Scenario): ![Lattice Crush](videos/lattice_crush.mp4)
 
 ### Prerequisites
 - NumPy
