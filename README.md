@@ -29,9 +29,14 @@ Code/
     ├── lattice_crowd_animation.mp4    # Normal Animation 
     └── lattice_crush_animation.mp4    # Crush Animation
 ```
-# Example Animation
-![Crowd Simulation - Normal Scenario](Videos/off-lattice_normal.mp4)
+
+### Animations
+
+Off-Lattice Model (Normal Scenario)
 <video src="Videos/off-lattice_normal.mp4" controls width="100%"></video>
+
+ Off-Lattice Model (Crush Scenario)
+<video src="Videos/off-lattice_crush.mp4" controls width="100%"></video>
 
 ### Prerequisites
 - NumPy
